@@ -1,0 +1,56 @@
+<html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Votación River vs Boca</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Felpais.com%2Felpais%2F2018%2F12%2F09%2Falbum%2F1544382730_659890.html&psig=AOvVaw3OBl5OoAlf9hfGxZY4IUe_&ust=1713638249416000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKD_9-b1zoUDFQAAAAAdAAAAABAI);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-align: center;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Votación River vs Boca</h1>
+    <p>¿Quién crees que ganará el partido entre River Plate y Boca Juniors?</p>
+    <button id="riverButton">Votar por River Plate</button>
+    <button id="bocaButton">Votar por Boca Juniors</button>
+    <p>El ganador será recompensado con un "Combo de Fernet".</p>
+</div>
+</body>
+</html>
